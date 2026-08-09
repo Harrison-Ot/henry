@@ -1,9 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
-
-
 }
 header{
     background-color: black;
@@ -12,6 +9,13 @@ header{
 }
 header nav ul li{
     color: white;
+
+}
+header nav ul li:hover{
+    cursor: grab;
+    color: rgb(152, 219, 44);
+    font-size: 105%;
+
 
 }
 header nav{
@@ -28,4 +32,26 @@ header nav ul{
     width: 50%;
     justify-content: space-evenly;
     text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    padding:0;
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}
+.buttons button{
+    background-color: white ;
+    padding: 8px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(15, 179, 116);
+    margin-right: 10px;
+}
+.buttons button:hover{
+    background-color: forestgreen;
+    color: white;
 }
