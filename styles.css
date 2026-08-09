@@ -1,11 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: poppins;
+    
+    
+}
+body{
+    background-color:#eff0d1;
 }
 header{
     background-color: black;
     padding: 5px;
-    width: 100%;
+    width: auto;
 }
 header nav ul li{
     color: white;
@@ -33,7 +39,7 @@ header nav ul{
     justify-content: space-evenly;
     text-decoration: none;
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .buttons{
     padding:0;
@@ -45,13 +51,37 @@ header nav ul{
     background-color: white ;
     padding: 8px;
     width: 100px;
-    border-radius: 12px;
-    border: none;
-    color: rgb(0, 0, 0);
+    border-radius: 18px;
+    border: 3px solid #307351;
+    outline: none;
+    color: #050404;
     border-bottom: 2px solid rgb(15, 179, 116);
     margin-right: 10px;
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+   
 }
 .buttons button:hover{
-    background-color: forestgreen;
+    background-color: rgb(34, 139, 34);
     color: white;
+    font-family: poppins;
+    font-weight: 600px;
+}
+.hero{
+    height: 94.5dvh;
+    width: 100%;
+
+}
+.hero .text{
+   background-color: red;
+   width: 50%;
+   height: 100%;
+   display: flex;
+   align-items: center; 
+   padding-left: 110px;
+}
+.hero .text h1{
+    font-size: 90px;
+    
 }
