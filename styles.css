@@ -9,12 +9,13 @@ body{
     background-color:#eff0d1;
 }
 header{
-    background-color: black;
+    background-color: lightslategrey;
     padding: 5px;
     width: auto;
 }
 header nav ul li{
-    color: white;
+    color: black;
+    font-weight: 500;
 
 }
 header nav ul li:hover{
@@ -52,10 +53,9 @@ header nav ul{
     padding: 8px;
     width: 100px;
     border-radius: 18px;
-    border: 3px solid #307351;
+    border: none;
     outline: none;
     color: #050404;
-    border-bottom: 2px solid rgb(15, 179, 116);
     margin-right: 10px;
     
    
@@ -104,4 +104,8 @@ header nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.two{
+    height: 94.5dvh;
+    background-color: lightslategrey;
 }
