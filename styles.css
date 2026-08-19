@@ -57,9 +57,7 @@ header nav ul{
     color: #050404;
     border-bottom: 2px solid rgb(15, 179, 116);
     margin-right: 10px;
-    font-family: "Petit Formal Script", cursive;
-    font-weight: 600;
-    font-style: normal;
+    
    
 }
 .buttons button:hover{
